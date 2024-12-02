@@ -25,7 +25,7 @@ module.exports = {
   onStart: async function ({ api, event, args }) {
     if (!args[0]) {
       {
-        api.setMessageReaction("🫨", event.messageID, (err) => {}, true);
+        api.setMessageReaction("🥰", event.messageID, (err) => {}, true);
       }
       const ArYan = [
         "𝗙𝘂𝗻𝗻𝘆 𝘃𝗶𝗱𝗲𝗼",
@@ -42,7 +42,7 @@ module.exports = {
       const message =
         "╭─────❁\n│      『 𝗔𝗟𝗕𝗨𝗠 𝗩𝗜𝗗𝗘𝗢 』 \n│\n" +
         ArYan
-          .map((option, index) => `│${index + 1}. ${option} 👨🏿‍🌾`)
+          .map((option, index) => `│${index + 1}. ${option} 🌸`)
           .join("\n") +
         "\n╰────────────❁\n\n╭─────❁\n│   『 𝗘𝗩𝗘𝗥𝗬𝗢𝗡𝗘 』\n│Oi mama please tryp 1~10\n│https://m.me/mr.tarif.yt130.T\n╰────────────❁";
 
@@ -62,7 +62,7 @@ module.exports = {
       );
     } else if (args[0] === "2") {
       {
-        api.setMessageReaction("🫨", event.messageID, (err) => {}, true);
+        api.setMessageReaction("🥰", event.messageID, (err) => {}, true);
       }
       const ArYan = [
         "𝗔𝗲𝘀𝘁𝗵𝗲𝘁𝗶𝗰 𝗩𝗶𝗱𝗲𝗼",
@@ -78,9 +78,9 @@ module.exports = {
       const message =
         "╭─────❁\n│      『 𝗔𝗟𝗕𝗨𝗠 𝗩𝗜𝗗𝗘𝗢 』 \n│\n" +
         ArYan
-          .map((option, index) => `│${index + 11}. ${option} 👨🏿‍🌾`)
+          .map((option, index) => `│${index + 11}. ${option} 🌸`)
           .join("\n") +
-        "\n╰────────────❁\n\n╭─────❁\n│   『 𝗘𝗩𝗘𝗥𝗬𝗢𝗡𝗘 』\n│Oi mama please tryp11~20\n│https://m.me/mr.tarif.yt130.T \n╰────────────❁";
+        "\n╰────────────❁\n\n╭─────❁\n│   『 𝗘𝗩𝗘𝗥𝗬𝗢𝗡𝗘 』\n│Oi mama please tryp11~20\n│https://m.me/.tamim.225566 \n╰────────────❁";
 
       await api.sendMessage(
         message,
